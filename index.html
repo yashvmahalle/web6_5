@@ -1,0 +1,260 @@
+<html lang="en"></html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Pricing
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1a1a1a;
+            padding: 10px 20px;
+        }
+        .navbar .logo img {
+            height: 40px;
+        }
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .header p {
+            font-size: 18px;
+            color: #b3b3b3;
+        }
+        .pricing {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .card.pro {
+            width: 400px;
+        }
+        .card h2 {
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+        .price {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .features li i {
+            color: #4caf50;
+            margin-right: 10px;
+        }
+        .button {
+            display: block;
+            text-align: center;
+            background-color: #6a0dad;
+            color: #ffffff;
+            padding: 10px 0;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .toggle {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .toggle label {
+            margin-right: 10px;
+        }
+        .toggle input {
+            margin-right: 5px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+    <img alt="Company Logo" height="40" src="a1.png" width="100"/>
+   </div>
+   <div>
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     Pricing
+    </a>
+    <a href="#">
+     Contact
+    </a>
+   </div>
+  </div>
+  <div class="container">
+   <div class="header">
+    <h1>
+     One Price for Everything
+    </h1>
+    <p>
+     The simplest pricing in the industry. You won't need a calculator for this.
+    </p>
+   </div>
+   <div class="pricing">
+    <div class="card pro">
+     <div class="toggle">
+      <label>
+       Bill Monthly
+      </label>
+      <input checked="" type="checkbox"/>
+      <label>
+       Bill Yearly
+      </label>
+     </div>
+     <h2>
+      Pro
+     </h2>
+     <p>
+      Includes everything you need for your professional website
+     </p>
+     <div class="price">
+      $20
+     </div>
+     <p>
+      / Site / Month (billed annually)
+     </p>
+     <ul class="features">
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Custom Domains
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       GDPR Solution
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Beautiful Site Design
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Super-Fast Hosting
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Analytics
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Custom Forms
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Blogging
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Password Protection
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Multilingual Sites
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       User Management
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Unlimited Pages
+      </li>
+      <li>
+       <i class="fas fa-check">
+       </i>
+       Unlimited Team Members
+      </li>
+     </ul>
+     <a class="button" href="#">
+      Get Started
+     </a>
+    </div>
+    <div class="card">
+     <h2>
+      Basic
+     </h2>
+     <p>
+      Publish your site for free with almost all pro features.
+     </p>
+     <div class="price">
+      Free
+     </div>
+     <ul class="features">
+      <li>
+       Everything from Pro, except:
+      </li>
+      <li>
+       — No Custom Domains
+      </li>
+      <li>
+       — "Made with Umso" Branding
+      </li>
+     </ul>
+     <p>
+      No credit card required
+     </p>
+     <a class="button" href="#">
+      Get Started
+     </a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
